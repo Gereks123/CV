@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My contact</title>
+  </head>
+  <body>
+    <h1>My Personal Contacts</h1>
+    <ul>
+      <li>My phone number:58082414</li>
+      <li><strong>german.eksi@gmail.com</strong></li>
+      <li>Facebook: German Eksi</li>
+
+      <form action="mailto:@german.eksi@gmail.com" method="post" enctype="text/plain"><!-- enctype on sama, mis metas charset="utf-8", annab teada, et tõlgendada teksti tekstina/plain-->   <!-- Action, viitab sellele, mis juhtub submit funktsiooniga, kui seda vajutada, praegusel juhul, loob see gmaili sõnumi aadressile "german.eksi@gmail.com" method="post" tähendab, et kõik "form" funktsiooni sees läheb sinna gmaili.-->
+        <label for="">Your Name:</label>
+        <input type="text" name="yourName" value=""><br>
+        <label for="">Your email:</label>
+        <input type="email" name="yourEmail" value=""><br><!-- name= saab pärast referrida nendele input commandidele-->
+        <label for="">Your message:</label><br>
+        <textarea name="yourMessage" rows="10" cols="100"></textarea><br>   <!-- rows= kõrgus ning cols= laius-->
+        <input type="submit" name="" value="Submit">
+      </form>
+    </ul>
+  </body>
+</html>
